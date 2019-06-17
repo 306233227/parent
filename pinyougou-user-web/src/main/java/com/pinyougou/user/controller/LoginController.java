@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/login")
 public class LoginController {
-
+	//获取用户名
 	@RequestMapping("/name")
 	public Map showName(){
 		String name = SecurityContextHolder.getContext().getAuthentication().getName();

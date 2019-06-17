@@ -117,4 +117,6 @@ public class AddressController {
 		String userId = SecurityContextHolder.getContext().getAuthentication().getName();
 		return addressService.findListByUserId(userId);
 	}
+
+
 }
